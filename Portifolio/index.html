@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <title>
+	    Allan Borges Portfilio Website
+	  </title>
+	  <meta charset='UTF-8'>
+	  <link rel='stylesheet'
+	  href='https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.css'>
+	  
+    <script src="https://kit.fontawesome.com/03f20e3b3a.js" crossorigin="anonymous"></script>
+    
+    <!-- Update these with your own fonts -->
+    
+    <link href='https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap' rel='styleshhet'>
+    
+    <link rel='stylesheet' href="css/style.css">
+	  
+  
+  </head>
+  <body>
+	  <header>
+		  
+		  <div class="toggle-container">
+        <input type="checkbox" id="toggle-button" checked class="toggle-button">
+        <label for="toggle-button" class="toggle-label">
+            <span class="toggle-text">PT-BR</span>
+            <span class="toggle-switch"></span>
+            <span class="toggle-text">EN</span>
+        </label>
+      </div>
+		  <button class='nav-toggle' aria-label='toggle navigation'>
+			  <span class='hamburger'></span>
+		  </button>
+		  <nav class='nav'>
+			  <ul class='nav__list'>
+				  <li class='nav__item'><a href='#' class='nav__link'>Home</a></li>
+				  <li class='nav__item'><a href='#services' class='nav__link' id='link__my_services'>Meus Serviços</a></li>
+				  <li class='nav__item'><a href='#about' class='nav__link' id='link__about_me'>Sobre Mim</a></li>
+				  <li class='nav__item'><a href='#work' class='nav__link' id='link__my-work'>Meus Trabalhos</a></li>
+          <li class='nav__item'><a href='https://www.linkedin.com/in/allan-da-silva-borges' class='nav__link' id='link__'>LinkedIn</a>
+          <li class='nav__item'><a href='https://github.com/AllanSBorges' class='nav__link' id='link__'>Github</a>
+          </li>
+			  </ul>
+		   </nav>
+	  </header>
+		  
+	  <!-- Introduction -->
+	  
+	  <section class='intro' id='home'>
+		  <h1 = class='section__title section__title--intro' id='section__title--intro'>
+			  Oi, eu sou o<strong> Allan Borges </strong>
+		  </h1>
+		  <p class='section__subtitle section__subtitle--intro'>Dev Python</p>
+		  <img src='img/eu-01.jpg' alt='a picture of Allan Borges smiling' class='intro__img'>
+	  </section>
+	  
+	  <!-- My services -->
+	  
+	  <section class ='my-services' id='services'>
+		  <h2 class='section__title section__title--services' id='section__title--services'>O que eu faço</h2>
+		  <div class='services'>
+			  <div class='service'>
+				  <h3 id="service__1__title">Desenvolvedor Django</h3>
+				  <p id="service__1__description"> 
+            Como desenvolvedor web, utilizo Python, Django, PostgreSQL, HTML, CSS, JavaScript e Bootstrap para criar e manter sites e aplicações web. Uso Python e o framework Django para construir a lógica do servidor e gerenciar a base de dados com PostgreSQL. Com HTML e CSS, estruturo e estilizo as páginas, enquanto JavaScript adiciona interatividade. O Bootstrap me ajuda a garantir que os sites sejam responsivos e funcionem bem em dispositivos de diferentes tamanhos.
+          </p>
+          
+			  </div> <!-- /service -->
+			  
+			  <div class='service'>
+				  <h3 id="service__2__title">Web Scraping</h3>
+				  <p id="service__2__description">Como desenvolvedor especializado em web scraping com Python, utilizo ferramentas poderosas como BeautifulSoup, Scrapy e Selenium para extrair dados de sites. Com BeautifulSoup, analiso a estrutura HTML das páginas para encontrar e coletar as informações desejadas. Scrapy, um framework robusto de scraping, me permite construir spiders que navegam e coletam dados de maneira eficiente e escalável. Quando é necessário interagir com elementos dinâmicos, uso Selenium para automatizar a navegação e a extração de dados. Em resumo, combino essas ferramentas para transformar dados não estruturados da web em informações úteis e organizadas para diversas aplicações. 
+          </p>
+			  </div> <!-- /service -->
+			  
+			 <!-- <div class='service'>
+				  <h3 id="service__3__title">Desenvolvedor Django</h3>
+				  <p id="service__3__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+            Pellentesque pharetra sed mauris quis fringilla. 
+            Suspendisse vel tellus non urna molestie laoreet. 
+            Pellentesque quis tristique odio, sed congue mi. Aenean consequat orci pellentesque, varius nunc vitae, tempus tellus. 
+            Nulla vitae elit dui. Donec luctus arcu quis viverra vehicula. 
+            Suspendisse ultrices consectetur diam, quis sollicitudin sem convallis in. 
+            Integer ac leo et nunc molestie fermentum ac id ex. 
+            Ut nec tristique massa. Duis et vehicula nibh, eget posuere est. Nullam in orci dui. 
+            Morbi nibh diam, euismod non diam et, convallis lobortis nibh. Donec nec erat congue, interdum felis quis, tempus nunc. 
+            Sed facilisis, libero sed tempus aliquet, dui magna consectetur quam, id posuere ligula purus quis odio. 
+            Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. 
+            Pellentesque tortor lorem, vestibulum at vehicula vitae, blandit ac orci. 
+          </p>
+			  </div> --><!-- /service -->
+		  </div> <!-- /services -->
+		  
+		  <a href='#work' class='btn' id='my__work'>Meu trabalho</a>
+	  </section>
+    
+    <!-- About me -->
+    <section class='about-me' id='about'>
+      <h2 class='section__title section__title--about' id='section__title--about'>Quem sou eu</h2>
+      <p class='section__subtitle section__subtitle--about' id='section__subtitle--about'>Um breve resumo da minha trajetória<p>
+      
+      <div class='about--me__body' id='about--me__body'>
+        <p>Trabalhei como suporte técnico no setor de TI de uma faculdade chamada <a href="https://www.fasap.edu.br/" target='blank'>FASAP</a> por uma década. Durante este período desenvolvi uma forte habilidade em resolução de problemas, atendimento ao cliente e compreensão de sistemas de software (principalmente da área de gestão acadêmica) e hardware. Este trabalho me permitiu realizar uma grande variedade de tarefas indo desde do suporte ai usuário final passando por configuração de redes, manutenção de computadores, gerenciamento de uma plataforma Moodle à criação de relatórios acadêmicos.</p><p>Motivado pelo meu interesse resolver problemas de lógica e da ideia de utilizar programação de computadores para auxiliar na resolução de problemas de outras áreas decidi me dedicar ao desenvolvimento web. Para isso tenho me dedicado ao estudo de linguagens de programação e tecnologia como: Python, Django, CSS, HTML, Javascript, Postgres e Bootstrap são as principais no momento.</p>
+      </div>
+      <img src='img/devjane-02.jpg' alt='(mudar para uma foto minha)' class='about-me__img'>
+      
+    </section>
+		
+    
+    <!-- My work -->
+    <section class ='my-work' id='work'>
+      <h2 class ='section__title section__title--work' id='section__title--work'>My work</h2>
+      <p class ='section__subtitle section__subtitle--work' id='section__subtitle--work'>A selection of my range of work</p>
+      
+      <div class='portfolio'>
+        
+        <!-- Portfolio item 01 -->
+        <a href='#' class='portfolio__item'>
+          <img src='img/portfolio-01.jpg' alt='' class='portfolio__img'>
+        </a>
+        
+         <!-- Portfolio item 02 -->
+        <a href='#' class='portfolio__item'>
+          <img src='img/portfolio-01.jpg' alt='' class='portfolio__img'>
+        </a>
+        
+         <!-- Portfolio item 03 -->
+        <a href='#' class='portfolio__item'>
+          <img src='img/portfolio-01.jpg' alt='' class='portfolio__img'>
+        </a>
+      </div>
+    </section>
+    
+    
+    <!-- Footer -->
+    <footer class='footer'>
+      <a href='mailto:allandasilvaborges33@gmail.com' class='footer__link'>allandasilvaborges33@gmail.com</a>
+      <ul class='social-list'>
+        <li class='social-list__item'>
+          <a class='social-list__link' href='https://github.com/AllanSBorges/AllanSBorges' target='_blank'>
+            <i class="fa-brands fa-github"></i>
+          </a>
+        </li>
+        <li class='social-list__item'>
+          <a class='social-list__link' href='https://linkedin.com/in/allan-da-silva-borges' target='_blank'>
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+      </ul>    
+    </footer>
+    
+    <script src="js/index.js"></script>
+  </body>
+</html>
